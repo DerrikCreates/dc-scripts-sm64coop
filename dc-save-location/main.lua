@@ -1,0 +1,2 @@
+-- name: Save Loc
+-- description: CS Surf/Bhop style saveloc

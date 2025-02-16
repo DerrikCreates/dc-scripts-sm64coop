@@ -1,5 +1,3 @@
--- name: Save Loc
--- description: CS Surf/Bhop style saveloc
 local savedPitch
 local savedYaw
 
@@ -21,7 +19,6 @@ function mario_update(m)
 	end
 	-- tele back to save loc
 	if (m.controller.buttonDown & L_JPAD) ~= 0 then
-		
 		print(string.format("x:%f,y:%f,z:%f", x, y, z))
 		m.pos.x = x
 		m.pos.y = y
