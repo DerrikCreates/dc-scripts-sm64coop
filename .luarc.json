@@ -1,0 +1,5 @@
+{
+  "workspace": {
+    "library": ["../sm64coopdx/autogen/lua_definitions/"]
+  }
+}

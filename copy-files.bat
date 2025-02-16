@@ -1,0 +1,1 @@
+AutoSymlink ./ ./mods-symlink true
