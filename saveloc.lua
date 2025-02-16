@@ -20,7 +20,8 @@ function mario_update(m)
 		vz = m.vel.z
 	end
 	-- tele back to save loc
-	if (m.controller.buttonPressed & L_JPAD) ~= 0 then
+	if (m.controller.buttonDown & L_JPAD) ~= 0 then
+		
 		print(string.format("x:%f,y:%f,z:%f", x, y, z))
 		m.pos.x = x
 		m.pos.y = y
